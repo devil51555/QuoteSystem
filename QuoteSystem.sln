@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User Interface", "User Interface", "{4C39DFDF-5D66-467D-9B20-032A01B0657F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Layer", "Application Layer", "{EA33C02C-F7A6-4509-8C96-80618ABC95A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{DA9CFB3B-CF49-4F2B-998C-87ECA2D8F940}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure Layer", "Infrastructure Layer", "{638A32D7-3F26-4F1F-8808-4349A6A2207E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{367D296D-565F-4C9E-B940-0AB83902D5E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{CE157E21-7A68-4C23-AA8B-B3BB81227EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteSystem.Website", "QuoteSystem.Website\QuoteSystem.Website.csproj", "{8716ADAF-0D24-40F3-A204-3C8D501DA99A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8716ADAF-0D24-40F3-A204-3C8D501DA99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8716ADAF-0D24-40F3-A204-3C8D501DA99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8716ADAF-0D24-40F3-A204-3C8D501DA99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8716ADAF-0D24-40F3-A204-3C8D501DA99A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{367D296D-565F-4C9E-B940-0AB83902D5E7} = {638A32D7-3F26-4F1F-8808-4349A6A2207E}
+		{CE157E21-7A68-4C23-AA8B-B3BB81227EB6} = {638A32D7-3F26-4F1F-8808-4349A6A2207E}
+		{8716ADAF-0D24-40F3-A204-3C8D501DA99A} = {4C39DFDF-5D66-467D-9B20-032A01B0657F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52B92F03-4A2C-4D84-BCB8-30BE4FC54A2F}
+	EndGlobalSection
+EndGlobal
